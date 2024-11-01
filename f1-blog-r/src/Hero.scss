@@ -1,0 +1,11 @@
+.hero {
+  &__container {
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url('./assets/patrick-konior-3PsebJlWNiM-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+  }
+}
