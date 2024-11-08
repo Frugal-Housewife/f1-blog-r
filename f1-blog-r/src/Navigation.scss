@@ -13,6 +13,7 @@
     display: grid;
     place-content: center right;
     transition: background-color 0.3s ease;
+    padding-inline: 1rem;
   }
   &__container.scrolled {
     background-color: #414141;
@@ -35,7 +36,7 @@
     display: grid;
     place-content: center;
     color: whitesmoke;
-    
+    cursor: pointer;
 
   }
 }

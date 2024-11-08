@@ -1,0 +1,15 @@
+.footer {
+  &__container {
+    background-color: var(--red);
+    height: 10dvh;
+    padding-inline: 1rem;
+  }
+  &__container--inner {
+    height: 10dvh;
+    display: grid;
+    place-content: center right;
+  }
+  &__container--inner-copyright {
+    font-size: 1.2rem;
+  }
+}

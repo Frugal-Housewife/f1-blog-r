@@ -1,0 +1,55 @@
+.statistics {
+  &__container {
+    width: 100%;
+    height: fit-content;
+    // background-color: lightcoral;
+    background-color: var(--dark);
+    margin-bottom: 2rem;
+  }
+  &__container--inner {
+    width: 70%;
+    margin-inline: auto;
+    // background-color: deepskyblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 20px;
+    // background-color: deeppink;
+  }
+  &__container--inner-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+  }
+  &__container--inner-content-drivers,
+  &__container--inner-content-teams {
+    width: 49%;
+    height: fit-content;
+    // background-color: antiquewhite;
+  }
+  &__container--inner h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--light);
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: transparent;
+  color: var(--red);
+}

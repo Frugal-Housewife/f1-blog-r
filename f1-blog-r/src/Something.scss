@@ -1,7 +1,48 @@
 .something {
   &__container {
     width: 100%;
-    height: 100dvh;
-    background-color: cornflowerblue;
+    height: fit-content;
+    background-color: var(--dark);
+    padding: 10dvh 0 0;
+    margin-bottom: 2rem;
   }
+  &__container--inner {
+    width: 70%;
+    margin-inline: auto;
+    // outline: 1px  solid red;
+  }
+  &__container--inner h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  &__container--inner-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  &__container--inner-content-block {
+    width: 320px;
+    height: fit-content;
+    // outline: 1px solid deeppink;
+    position: relative;
+    padding: 10px;
+  }
+  &__container--inner-content-block:hover {
+    background-color: rgba(211, 211, 211, 0.20);
+  }
+}
+
+.month {
+  background-color: var(--red);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  // ----------------
+  position: absolute;
+  top: 0;
+  left: 0;
 }

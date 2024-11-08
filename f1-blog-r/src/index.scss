@@ -6,7 +6,9 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  --red: #e10600;
+  --light: #dedede;
+  --dark: #020202;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,4 +21,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+button {
+  padding: 8px 12px;
+  outline: none;
+  border: none;
+  background-color: var(--red);
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#root {
+  background-color: var(--dark);
 }

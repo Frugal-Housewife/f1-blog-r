@@ -1,13 +1,16 @@
 import "./Hero.scss";
+// import f1 from "./assets/f1.svg";
+import b1 from "./assets/b1.svg";
 
 function Hero() {
-  return(
+  return (
     <>
       <section className="hero__container">
-        <div className="hero__container--inner">1</div>
+        <img src={b1} alt="formula one logo" />
+        <div className="hero__container--inner"></div>
       </section>
     </>
-  )
+  );
 }
 
 export default Hero;
