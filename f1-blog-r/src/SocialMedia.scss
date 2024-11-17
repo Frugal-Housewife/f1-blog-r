@@ -1,0 +1,12 @@
+
+.socialmedia {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    // background-color: deeppink;
+    width: 220px;
+  }
+  &__container a {
+    color: var(--light);
+  }
+}

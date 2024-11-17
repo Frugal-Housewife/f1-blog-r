@@ -1,0 +1,31 @@
+
+.contacts {
+  &__container {
+    width: 100%;
+    min-height: 90dvh;
+    height: fit-content;
+    padding-top: 10dvh;
+  }
+  &__container--inner {
+    width: 70%;
+    height: 75dvh;
+    margin-inline: auto;
+    // background-color: deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  &__container--inner-block {
+    // margin-bottom: 2rem;
+    font-size: 2rem;
+    // background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.icon {
+  color: var(--red);
+  margin-right: 2rem;
+}

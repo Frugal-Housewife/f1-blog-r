@@ -1,8 +1,14 @@
 import "./Navigation.scss";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Navigation() {
-  const navigation = ["Home", "News", "Statistics", "Contacts"];
+  const navigation = [
+    { name: "Home", path: "/" },
+    { name: "News", path: "/news" },
+    { name: "Statistics", path: "/statistics" },
+    { name: "Contacts", path: "/contacts" },
+  ];
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -30,7 +36,7 @@ function Navigation() {
               key={index}
               className="navigation__container--inner-content-block"
             >
-              {item}
+              <Link className="link" to={item.path}>{item.name}</Link>
             </li>
           ))}
         </ul>

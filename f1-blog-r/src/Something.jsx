@@ -69,7 +69,7 @@ function Something() {
 
   return (
     <>
-      <section className="something__container">
+      <section className="something__container" id="news">
         <div className="something__container--inner">
           <h2>News</h2>
           <div className="something__container--inner-content">
@@ -81,7 +81,6 @@ function Something() {
                 <div className="month">
                   {" "}
                   <p>{new Date().getDate()}</p>
-                  
                   <p>{getMonthName(month)}</p>
                 </div>
                 <img src="//unsplash.it/300/150" alt="" />

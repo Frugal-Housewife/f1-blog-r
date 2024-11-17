@@ -28,6 +28,9 @@
     align-items: center;
     height: 100%;
   }
+  &__container--inner-content a {
+    text-decoration: none;
+  }
   &__container--inner-content-block {
     list-style: none;
     // border: 2px solid darkgray;
@@ -39,4 +42,9 @@
     cursor: pointer;
 
   }
+}
+
+.link {
+  text-decoration: none;
+  color: var(--light);
 }

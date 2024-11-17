@@ -1,6 +1,7 @@
 .something {
   &__container {
     width: 100%;
+    min-height: 100dvh;
     height: fit-content;
     background-color: var(--dark);
     padding: 10dvh 0 0;

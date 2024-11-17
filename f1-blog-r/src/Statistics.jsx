@@ -35,7 +35,7 @@ function Statistics() {
   ];
 
   return (
-    <section className="statistics__container">
+    <section className="statistics__container" id="statistics">
       <div className="statistics__container--inner">
         <h2>Driver Standing</h2>
         <div className="statistics__container--inner-content">
